@@ -1,3 +1,5 @@
+#This is outdated. I will add the prper one later
+
 import time
 from datetime import date
 

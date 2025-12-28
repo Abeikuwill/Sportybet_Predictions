@@ -175,8 +175,9 @@ def predict_match(home_odds, draw_odds, away_odds, df, k=50):
 if __name__ == "__main__":
     # Load your historical matches dataset
     # Must have columns: ["home_odds", "draw_odds", "away_odds", "home_goals", "away_goals", "home_score", "away_score"]
-    df = pd.read_json(r'C:/Users/ABEIKU/Desktop/GrandAudit/SourceBook.json')
+    df = pd.read_json(https://raw.githubusercontent.com/Abeikuwill/Sportybet_Predictions/refs/heads/main/SourceBook.json)
 
     # Predict for a new match
     result = predict_match(1.23, 5.8, 8.6, df, k=300)
     print(result)
+

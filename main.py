@@ -181,7 +181,11 @@ if __name__ == "__main__":
 
 
     # Predict for a new match
-    result = predict_match(1.23, 5.8, 8.6, df, k=300)
+    A = float(input("Type the Home_Odds with all the decimals: "))
+    B = float(input("Type the Draw_Odds with all the decimals: "))
+    C = float(input("Type the Away_Odds with all the decimals: "))
+    result = predict_match(A, B, C, df, k=300)
     print(result)
+
 
 
